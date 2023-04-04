@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+body {
+    background: #342018;
+}
+
+.header {
+    background: #D6D6D6;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headBlock {
+    display: flex;
+    align-items: center;
+
+}
+
+.logoHorse {
+    width: 50px;
+    height: 60px;
+    padding: 20px;
+}
+
+.titleHead {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #7B5C40;
+}
+
+.aboutHead {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #B5A38D;
+    padding: 0 30px 0 0;
+
+}
+
+/*hero*/
+.heroTitle {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    color: #B5A38D;
+    margin: 30px 0 30px 40px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 190px 0 0 0;
+    background: #231510;
+
+}
+
+.heroImg {
+    border: 5px solid #F8EFD2;
+    background: #FFFFFF;
+    border-radius: 5000px 5000px 0 0;
+}
+
+.heroDesc {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #736152;
+    opacity: 0.5;
+}
+
+.heroDescription {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #736152;
+    opacity: 0.5;
+    text-align: end;
+}
+
+/*about*/
+#about {
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #231510;
+    padding: 190px 0 0 0;
+}
+
+.aboutTitle {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 94px;
+    color: rgba(123, 92, 64, 0.24);
+}
+
+.aboutAbout {
+    font-size: 72px;
+    line-height: 74px;
+    color: #B5A38D;
+}
+
+.aboutDesc {
+    font-size: 30px;
+    line-height: 36px;
+    color: #F8EFD2;
+    margin: 50px 0 30px 0;
+}
+
+/*swiper*/
+.swiper {
+    width: 440px;
+    height: 520px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    border: solid 10px #7B5C40;
+}
+
+/*horse*/
+#horse {
+
+}
+
+.horse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #231510;
+    padding: 190px 0 0 0;
+}
+
+.horseTitle {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 74px;
+    text-align: center;
+    color: #F8EFD2;
+}
+
+.blockHorse {
+    width: 537px;
+    height: 238px;
+    background: #7B5C40;
+    border: 5px solid #F8EFD2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.horseImg {
+    width: 165px;
+    height: 246px;
+    border-radius: 82px;
+    border: 3px solid #F8EFD2;
+    margin-top: -140px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horseBlockBig {
+    padding: 190px 0 0 0;
+}
+
+.horseImage {
+    object-fit: cover;
+}
+
+.blockHorse h1 {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: #F8EFD2;
+    padding: 20px 0 10px 0;
+}
+
+.blockHorse p {
+    font-family: 'Humanst521 BT', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: #F8EFD2;
+}
+
+.blockContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*footer*/
+.footer {
+    background: #D6D6D6;
+    padding: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background: #342018;
+    margin: 0 auto;
+
+}
+
+/*media*/
+@media (max-width: 1024px) {
+    .blockContainer {
+        grid-template-columns: 1fr;
+    }
+    .heroDesc {
+        font-size: 26px;
+        margin: 0 0 0 10px;
+    }
+    .heroImg {
+        width: 200px;
+        height: 250px;
+    }
+    .heroTitle {
+        font-size: 41px;
+        line-height: 60px;
+    }
+    .hero {
+        padding: 96px 0 0 0;
+    }
+    .aboutTitle {
+        font-size: 64px;
+    }
+}
